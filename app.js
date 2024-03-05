@@ -3,11 +3,24 @@ const express = require("express");
 const path = require("path");
 const cookieParser = require("cookie-parser");
 const logger = require("morgan");
+const mongoose = require("mongoose");
+
+require("dotenv").config();
 
 const indexRouter = require("./routes/shop");
 const usersRouter = require("./routes/medicin");
 
 const app = express();
+
+mongoose
+  .connect(process.env.MONGO_URL)
+  .then(() => {
+    console.log("Database connection successful");
+  })
+  .catch((error) => {
+    console.log(error);
+    process.exit(1);
+  });
 
 // view engine setup
 app.set("views", path.join(__dirname, "views"));
