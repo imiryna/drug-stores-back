@@ -1,0 +1,110 @@
+[
+  {
+    "id": "65e6ff82c00c2aee325883b9",
+    "name": "Drugs 24",
+    "address": "Lublin, Lipova 2",
+    "rating": "4",
+
+    "medicine": [
+      {
+        "id": "65e70035188c216ee66d89e5",
+        "name": "paracetamol",
+        "saleDate": "2024-03-07T00:00:00.000+00:00",
+        "price": "10"
+      },
+      {
+        "id": "65e70035188c216ee66d89e6",
+        "name": "paracetamolForte",
+        "img": "https://www.e-zikoapteka.pl/paracetamol-500-mg-20-tabletek-biofarm.2.jpg",
+        "saleDate": "2024-03-07T00:00:00.000+00:00",
+        "price": "11"
+      },
+      {
+        "id": "65e70035188c216ee66d89e7",
+        "name": "paracetamolForte",
+        "img": "https://azcdn.doz.pl/image/d/product/03464aff-scale-800x800.webp",
+        "saleDate": "2024-03-07T00:00:00.000+00:00",
+        "price": "11"
+      },
+      {
+        "id": "65e70035188c216ee66d89e8",
+        "name": "paracetamolForte2",
+        "img": "https://azcdn.doz.pl/image/d/product/03464aff-scale-800x800.webp",
+        "saleDate": "2024-03-07T00:00:00.000+00:00",
+        "price": "11"
+      }
+    ]
+  },
+  {
+    "id": "65e6ff82c00c2aee325883b8",
+    "name": "Pharmacy",
+    "address": "Lublin, Lipova 2",
+    "rating": "4",
+
+    "medicine": [
+      {
+        "id": "65e70035188c216ee66d89e9",
+        "name": "paracetamol",
+        "saleDate": "2024-03-07T00:00:00.000+00:00",
+        "price": "10"
+      },
+      {
+        "id": "65e70035188c216ee66d89e1",
+        "name": "paracetamolForte",
+        "img": "https://www.e-zikoapteka.pl/paracetamol-500-mg-20-tabletek-biofarm.2.jpg",
+        "saleDate": "2024-03-07T00:00:00.000+00:00",
+        "price": "11"
+      },
+      {
+        "id": "65e70035188c216ee66d89e2",
+        "name": "paracetamolForte",
+        "img": "https://azcdn.doz.pl/image/d/product/03464aff-scale-800x800.webp",
+        "saleDate": "2024-03-07T00:00:00.000+00:00",
+        "price": "11"
+      },
+      {
+        "id": "65e70035188c216ee66d89e3",
+        "name": "paracetamolForte2",
+        "img": "https://azcdn.doz.pl/image/d/product/03464aff-scale-800x800.webp",
+        "saleDate": "2024-03-07T00:00:00.000+00:00",
+        "price": "11"
+      }
+    ]
+  },
+  {
+    "id": "65e6ff82c00c2aee325883b7",
+    "name": "MedCom",
+    "address": "Lublin, Lipova 2",
+    "rating": "4",
+
+    "medicine": [
+      {
+        "id": "65e70035188c216ee66d89e4",
+        "name": "paracetamol",
+        "saleDate": "2024-03-07T00:00:00.000+00:00",
+        "price": "10"
+      },
+      {
+        "id": "65e70035188c216ee66d88e5",
+        "name": "paracetamolForte",
+        "img": "https://www.e-zikoapteka.pl/paracetamol-500-mg-20-tabletek-biofarm.2.jpg",
+        "saleDate": "2024-03-07T00:00:00.000+00:00",
+        "price": "11"
+      },
+      {
+        "id": "65e70035188c216ee66d88e7",
+        "name": "paracetamolForte",
+        "img": "https://azcdn.doz.pl/image/d/product/03464aff-scale-800x800.webp",
+        "saleDate": "2024-03-07T00:00:00.000+00:00",
+        "price": "11"
+      },
+      {
+        "id": "65e70035188c216ee66d88e8",
+        "name": "paracetamolForte2",
+        "img": "https://azcdn.doz.pl/image/d/product/03464aff-scale-800x800.webp",
+        "saleDate": "2024-03-07T00:00:00.000+00:00",
+        "price": "11"
+      }
+    ]
+  }
+]
