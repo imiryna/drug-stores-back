@@ -3,30 +3,17 @@ const express = require("express");
 const path = require("path");
 const cookieParser = require("cookie-parser");
 const logger = require("morgan");
-const mongoose = require("mongoose");
 
 require("dotenv").config();
 
 const indexRouter = require("./routes/shop");
-const usersRouter = require("./routes/medicin");
+const usersRouter = require("./routes/medicine");
 
 const app = express();
 
-mongoose
-  .connect(process.env.MONGO_URL)
-  .then(() => {
-    console.log("Database connection successful");
-  })
-  .catch((error) => {
-    console.log(error);
-    process.exit(1);
-  });
+const formatsLogger = app.get("env") === "development" ? "dev" : "short";
 
-// view engine setup
-app.set("views", path.join(__dirname, "views"));
-app.set("view engine", "ejs");
-
-app.use(logger("dev"));
+app.use(logger(formatsLogger));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
