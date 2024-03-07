@@ -1,4 +1,5 @@
-import { initializeApp } from "firebase/app";
+const { initializeApp } = require("firebase/app");
+const { getDatabase } = require("firebase/database");
 
 const firebaseConfig = {
   apiKey: process.env.API_KEY,
@@ -11,4 +12,5 @@ const firebaseConfig = {
   measurementId: "G-H0K3GM6MKE",
 };
 
-export const firebaseDb = initializeApp(firebaseConfig);
+const firebase = initializeApp(firebaseConfig);
+const database = getDatabase(firebase);
