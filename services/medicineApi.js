@@ -18,8 +18,8 @@ const dbRef = getDatabase();
 //   });
 
 exports.getStores = async () => {
-  const storesRef = ref(dbRef, "stores/");
-  await onValue(storesRef, (snapshot) => {
+  const usersRef = ref(dbRef, "stors/");
+  await onValue(usersRef, (snapshot) => {
     const data = snapshot.val();
     console.log(data);
   });

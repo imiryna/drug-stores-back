@@ -11,6 +11,8 @@ const usersRouter = require("./routes/medicine");
 
 const app = express();
 
+app.set("view engine", "ejs");
+
 const formatsLogger = app.get("env") === "development" ? "dev" : "short";
 
 app.use(logger(formatsLogger));
