@@ -1,7 +1,5 @@
-const { firebase } = require("./firebaseDB");
-const { getStores } = require("./medicineApi");
+const { getStores } = require("./shopApi");
 
 module.exports = {
-  firebase,
   getStores,
 };

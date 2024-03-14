@@ -1,5 +1,5 @@
 const { initializeApp } = require("firebase/app");
-const { getDatabase } = require("firebase/database");
+// const { getDatabase } = require("firebase/database");
 
 const firebaseConfig = {
   apiKey: process.env.API_KEY,
@@ -12,5 +12,7 @@ const firebaseConfig = {
   measurementId: "G-H0K3GM6MKE",
 };
 
-const firebase = initializeApp(firebaseConfig);
-const database = getDatabase(firebase);
+console.log(firebaseConfig);
+
+initializeApp(firebaseConfig);
+// const db = getDatabase(firebase);
